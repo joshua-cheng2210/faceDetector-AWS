@@ -1,15 +1,15 @@
 # TLDR:
 ## front end
-- s3 for storage
-- cloudfront for CDN
-- amplify for CI/CD (optional)
+- s3 for storage --> 5GB storage + 20,000 GET, 2,000 PUT requests free for 12 months (per month?)
+- cloudfront for CDN --> always free
+- amplify for CI/CD (optional) --> 1000 build minutes, 5GB storage, 15GB transfer, 500,000 req, 100GB request duration free per month for 12 months 
 
 ## backend
-- lambda for serverless API
-- api gateway for routing
+- lambda for serverless API --> always free: 1 million req, 400,000 GB-seconds compute per month
+- api gateway for routing --> 1 million api calls free per month for 12 months
 
 ## postgress DB
-- rds for managed database
+- rds for managed database --> 750 hours of db.t2.micro or db.t3.micro instance per month for 12 months, plus 20GB of SSD database storage and 20GB of automated backup storage
 
 # details
 1. Static Front-end on S3 + CloudFront (or AWS Amplify)
