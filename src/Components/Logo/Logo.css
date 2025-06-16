@@ -1,0 +1,28 @@
+.Tilt{
+  /* background-color: beige; */
+  width: 100px;
+}
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.logo-img{
+    width: 100px;
+    height: 100px;
+    animation: logo-spin infinite 20s linear;
+    /* border: 2px solid #000; */
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.logo-img:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo-img.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
