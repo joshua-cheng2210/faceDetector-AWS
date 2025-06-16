@@ -9,7 +9,8 @@
 - api gateway for routing --> 1 million api calls free per month for 12 months
 
 ## postgress DB
-- rds for managed database --> 750 hours of db.t2.micro or db.t3.micro instance per month for 12 months, plus 20GB of SSD database storage and 20GB of automated backup storage
+- rds for managed database --> 750 hours of db.t2.micro or db.t3.micro instance, 20GB of SSD database storage and 20GB of automated backup storage per month for 12 months
+
 
 # details
 1. Static Front-end on S3 + CloudFront (or AWS Amplify)
