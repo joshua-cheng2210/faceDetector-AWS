@@ -28,7 +28,7 @@ class RegisterPage extends React.Component {
     event.preventDefault(); // Prevent the default form submission behavior
     const { onRouteChange, loadAcc } = this.props;
     // Perform registration logic here, e.g., send data to the server
-    fetch("https://facedetector-backend.onrender.com/register", {
+    fetch("https://2zklg96udc.execute-api.us-east-1.amazonaws.com/register", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

@@ -29,7 +29,7 @@ class SignIn extends React.Component {
     event.preventDefault(); // Prevent the default form submission behavior
     const { onRouteChange, updateIsSignedIn, loadAcc } = this.props;
     // Perform sign-in logic here, e.g., validate credentials
-    fetch("https://facedetector-backend.onrender.com/signin", {
+    fetch("https://2zklg96udc.execute-api.us-east-1.amazonaws.com/signin", {
       method : "post",
       headers : {"Content-Type" : "application/json"},
       body : JSON.stringify({
