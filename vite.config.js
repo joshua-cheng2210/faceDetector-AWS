@@ -8,6 +8,6 @@ export default defineConfig({
   preview: {
     port: parseInt(process.env.PORT) || 8080, // Use PORT env variable or default to 4173
     host: '0.0.0.0', // Allow access from outside the container
-    allowedHosts: ["facedetector-web.onrender.com", "localhost"],
+    allowedHosts: ["https://2zklg96udc.execute-api.us-east-1.amazonaws.com", "facedetector-web.onrender.com", "localhost"],
   },
 })
