@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/faceDetector/',
+  base: './',
   plugins: [react()],
   preview: {
     port: parseInt(process.env.PORT) || 8080, // Use PORT env variable or default to 4173
