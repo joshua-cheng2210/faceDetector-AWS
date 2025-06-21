@@ -51,7 +51,10 @@ note: this website may take a few seconds to load, because render.com may not ke
     - using jest to run the test cases
     - how to test:
         - test the behaviour of the components and functions and not how they are implemented
-
+- used AWS 
+    - stored the code in an s3 bucket
+    - used AWS cloud front to host the website --> cloud front is a CDN that caches your website to all the servers
+    - (optional) used AWS amplify for automatic deployment of the website
     
 # to run the front end website through docker image
 note: this is unnecessary if you are running the website through render.com
